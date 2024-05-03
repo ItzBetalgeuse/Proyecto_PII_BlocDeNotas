@@ -1,0 +1,18 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 20;
+    -fx-background-color: #00000025;
+}
+
+.button:hover{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 20;
+    -fx-background-color: #00000052;
+}
+
+.Pane{
+    -fx-background-color: linear-gradient(to right, #878787, #464646);
+    -fx-background-radius: 5
+}

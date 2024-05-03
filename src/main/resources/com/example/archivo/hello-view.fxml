@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.archivo.HelloController">
+   <children>
+      <SplitPane dividerPositions="0.08082329317269077" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="Pane" stylesheets="@SyleCSS.css">
+              <MenuButton layoutX="3.0" layoutY="2.0" mnemonicParsing="false" styleClass="button" stylesheets="@SyleCSS.css" text="Archivo" textFill="WHITE">
+                  <items>
+                      <MenuItem mnemonicParsing="false" onAction="#Nuevo" text="Nuevo" />
+                      <MenuItem mnemonicParsing="false" onAction="#Abrir" text="Abrir" />
+                      <MenuItem mnemonicParsing="false" onAction="#Guardar" text="Guardar" />
+                      <MenuItem mnemonicParsing="false" onAction="#Imprimir" text="Imprimir" />
+                      <MenuItem mnemonicParsing="false" onAction="#Cerrar" text="Cerrar" />
+                      <MenuItem mnemonicParsing="false" onAction="#Salir" text="Salir" />
+                  </items>
+              </MenuButton>
+              <MenuButton layoutX="78.0" layoutY="2.0" mnemonicParsing="false" styleClass="button" stylesheets="@SyleCSS.css" text="Editar" textFill="WHITE">
+                  <items>
+                      <MenuItem mnemonicParsing="false" onAction="#Cortar" text="Cortar   " />
+                      <MenuItem mnemonicParsing="false" onAction="#Copiar" text="Copiar   " />
+                      <MenuItem mnemonicParsing="false" onAction="#Pegar" text="Pegar   " />
+                      <MenuItem mnemonicParsing="false" onAction="#Buscar" text="Buscar   " />
+                      <MenuItem mnemonicParsing="false" onAction="#BuscarYRemplazar" text="Buscar y Reemplazar" />
+                  </items>
+              </MenuButton>
+              <MenuButton layoutX="144.0" layoutY="2.0" mnemonicParsing="false" styleClass="button" stylesheets="@SyleCSS.css" text="Ayuda" textFill="WHITE">
+                  <items>
+                      <MenuItem mnemonicParsing="false" onAction="#Manual" text="Manual" />
+                      <MenuItem mnemonicParsing="false" onAction="#AcercaDe" text="Acerca de" />
+                  </items>
+              </MenuButton>
+          </AnchorPane>
+          <AnchorPane fx:id="ContenedorTexto" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+              <TextArea fx:id="AreaDelTexto" layoutY="-1.0" prefHeight="363.0" prefWidth="599.0" stylesheets="@SyleCSS.css" />
+              <TabPane fx:id="Pestanas" layoutY="-1.0" prefHeight="363.0" prefWidth="599.0" />
+          </AnchorPane>
+      </SplitPane>
+   </children>
+</AnchorPane>

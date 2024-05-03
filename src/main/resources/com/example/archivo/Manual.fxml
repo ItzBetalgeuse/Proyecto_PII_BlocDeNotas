@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="454.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.archivo.HelloController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="26.0" layoutY="6.0" prefHeight="22.0" prefWidth="548.0" text="Manual de Usuario" textAlignment="CENTER" textFill="#120cc4">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="26.0" layoutY="49.0" prefHeight="22.0" prefWidth="548.0" text="Este manual contiene las instrucciones para usar este Bloc de Notas." textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="26.0" layoutY="71.0" prefHeight="22.0" prefWidth="548.0" text="Archivo:En esta pestaña encontraremos las siguientes funciones.">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="93.0" prefHeight="22.0" prefWidth="495.0" text="Nuevo:Con esta funcion se crea una nueva pestaña para comenzar">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="90.0" layoutY="115.0" prefHeight="22.0" prefWidth="484.0" text="      a usar el Bloc de notas.">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="137.0" prefHeight="22.0" prefWidth="495.0" text="Abrir:Esta funcion abrira un archivo .txt en la pestaña actual">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="159.0" prefHeight="22.0" prefWidth="495.0" text="Guardar:Esta funcion guardara la pestaña actual ">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="184.0" prefHeight="22.0" prefWidth="495.0" text="Imprimir:Esta funcion imprimira la pestaña actual">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="206.0" prefHeight="22.0" prefWidth="495.0" text="Cerrar:Esta funcion limpiara la pestaña actual">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="228.0" prefHeight="22.0" prefWidth="495.0" text="Salir:Esta funcion cerrara el programa">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="26.0" layoutY="250.0" prefHeight="22.0" prefWidth="548.0" text="Editar:En esta pestaña encontraremos las siguientes funciones.">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="272.0" prefHeight="22.0" prefWidth="495.0" text="Cortar:Seleccione una palabra u oracion para cortar dicha seccion">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="294.0" prefHeight="22.0" prefWidth="495.0" text="Copiar:Seleccione una palabra u oracion para copiar dicha palabra">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="316.0" prefHeight="22.0" prefWidth="495.0" text="Pegar:Esta funcion pega la palabra u oracion Cortada o Copiada">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="338.0" prefHeight="22.0" prefWidth="495.0" text="Buscar:Ingrese la palabra a buscar dicha palabra se seleccionara ">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="79.0" layoutY="360.0" prefHeight="22.0" prefWidth="495.0" text="Buscar y Remplazar:Ingrese la palabra a buscar y la palabra con la">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="216.0" layoutY="382.0" prefHeight="22.0" prefWidth="358.0" text="cual remplazara la palabra anterior">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
